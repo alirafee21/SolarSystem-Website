@@ -4,7 +4,8 @@
                 <title>Solar System</title>
                 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
                 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-           </head>
+                <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+            </head>
            <body style = "background-color:rgb(219, 141, 141)">
                 <h1 style="font-family: Cursive; font-size: 50px; color:rebeccapurple">Solar System</h1>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Planets2013.svg" alt="Solar System image" height= "250px" width="700px">
@@ -13,8 +14,9 @@
 
                 <p> All the planets and dwarf planets, the rocky asteroids, and the icy bodies in the Kuiper belt move around the Sun in elliptical orbits in the same direction that the Sun rotates. This motion is termed prograde, or direct, motion.
                 </p>
+               
                 <p><strong><u> Planets in the solar system: </u></strong> </p>
-                <table class="table table-dark table-sm table-hover" style = "border: 2px solid black">
+                <table class="table table-dark table-sm table-hover table sf" style = "border: 2px solid black">
                 <thead>
                     <tr>
                         <th scope = "col">No. </th>
